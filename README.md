@@ -4,7 +4,7 @@ Connexion automatique à un channel vocal prédéfini avec Discord.JS
 
 ## Installation
 
-Requiert NodeJS
+Requiert NodeJS et le module discord.js
 ```bash
 npm i discord.js
 ```
