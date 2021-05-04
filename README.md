@@ -11,7 +11,7 @@ npm i discord.js
 
 ## Utilisation
 
-Modifiez les lignes suivantes
+Dans le fichier index.js, modifiez les lignes suivantes
 ```javascript
 client.login("token"); # remplacez token par le token de votre bot.
 
