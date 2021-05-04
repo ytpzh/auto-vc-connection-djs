@@ -1,18 +1,20 @@
-# auto-vc-connection-djs
+# Auto VC Connection (Discord.js)
+
 Connexion automatique à un channel vocal prédéfini avec Discord.JS 
 
+## Installation
 
-COMMENT UTILISER ?
+Requiert NodeJS
+```bash
+npm i discord.js
+```
 
-1 - Installer NodeJS et le module Discord.JS sous leur dernière version.
+## Utilisation
 
-DANS LE CODE:
+Modifiez les lignes suivantes
+```javascript
+client.login("token"); # remplacez token par le token de votre bot.
 
-2 - Remplacer client.login(process.env.TOKEN) par le token de votre bot dans les parenthèses. (Ne pas oublier les doubles apostrophes !)
+let channel = client.channels.get("channel id"); # remplacez channel id par l'ID du channel souhaité.
+```
 
-3 - Remplacer "channel id" ligne 6 par l'ID du channel souhaité. (Ne pas oublier les doubles apostrophes !)
-
-4 - Executer le fichier index.js
-
-
-SI LES ÉTAPES SUIVANTES ONT ÉTÉ CORRECTEMENT SUIVIES, LE BOT DEVRAIT ÊTRE OPÉRATIONNEL
