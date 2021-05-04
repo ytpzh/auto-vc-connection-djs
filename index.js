@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 var client = new Discord.Client();
-client.login(process.env.TOKEN);
+client.login("token");
 
 client.on("ready", () => {
     let channel = client.channels.get("channel id");
