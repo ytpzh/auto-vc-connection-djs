@@ -15,6 +15,6 @@ Modifiez les lignes suivantes
 ```javascript
 client.login("token"); # remplacez token par le token de votre bot.
 
-let channel = client.channels.get("channel id"); # remplacez channel id par l'ID du channel souhaité.
+let channel = client.channels.cache.get("channel id"); # remplacez channel id par l'ID du channel souhaité.
 ```
 
