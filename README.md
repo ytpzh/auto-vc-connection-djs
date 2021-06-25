@@ -12,7 +12,7 @@ npm i discord.js
 ## Utilisation
 
 Dans le fichier config.json, insérez-y les informations nécessaires.
-```javascript
+```yaml
 {
     "token":"token du bot", # À remplacer par le token de votre bot.
     "channelID":"ID du channel" # À remplacer par l'ID du channel vocal.
