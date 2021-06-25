@@ -18,4 +18,8 @@ Dans le fichier config.json, insérez-y les informations nécessaires.
     "channelID":"ID du channel" # À remplacer par l'ID du channel vocal.
 }
 ```
+Ainsi, effectuez dans un invite de commande
+```cmd
+node index.js
+```
 
