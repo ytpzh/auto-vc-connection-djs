@@ -6,7 +6,7 @@ Connexion automatique à un channel vocal prédéfini avec Discord.JS
 
 Requiert NodeJS et le module discord.js
 ```bash
-npm i discord.js
+$ npm i discord.js
 ```
 
 ## Utilisation
@@ -19,7 +19,7 @@ Dans le fichier config.json, insérez-y les informations nécessaires.
 }
 ```
 Ainsi, effectuez dans un invite de commande (dans une console)
-```cmd
-node index.js
+```bash
+$ node index.js
 ```
 
